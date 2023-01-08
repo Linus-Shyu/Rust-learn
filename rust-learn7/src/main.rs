@@ -1,9 +1,5 @@
 fn main() {
-    let number = 7;
-    
-    if number < 5 {
-        println!("condition was true");
-    }else {
-        println!("condition was false");
-    }
+    let mut price = 188;
+    price = 288;
+    println!("{}",price);
 }
